@@ -7,7 +7,7 @@ public class Sample {
 	
 	int a;
 	String name;
-	  
+	    
 	
 	
 }
