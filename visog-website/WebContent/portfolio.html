@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">  
   <head>  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   
+     
 
     <title>Visog Global It Solutions</title>
 
@@ -23,7 +23,7 @@
     ======================================================= -->
  <style>
  h3{
- text-align:center;
+ text-align:center;  
  padding-bottom:10px;
  
  
@@ -67,6 +67,26 @@ font-size:14px;
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+.pdropdown {
+font-size:14px;
+	position: relative;
+	display: inline-block;
+}
+
+.pdropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 10px 16px;
+	z-index: 1;
+}
+
+.pdropdown:hover .pdropdown-content {
+	display: block;
+}
+
 </style>
   </head>
   <body>
@@ -92,7 +112,16 @@ font-size:14px;
 							
 								<p><li role="presentation"><a href="index.html">Home</a></li>
 								<li role="presentation"><a href="about.html">About Us</a></li>
-								<li role="presentation"><a href="portfolio.html" class="active">Portfolio</a></li> 
+								<div class="pdropdown">
+									<h3><li role="presentation"><a href="portfolios.html"class="pdropdown">Portfolios</a></li></h3></p>
+									<div class="pdropdown-content">
+									<li role="presentation"><a href="AssuranceServices.html">waterfall</a></li>
+									<li role="presentation"><a href="ConsultingService.html">weiltennis</a></li>
+									<li role="presentation"><a href="DigitalEnterprise.html">Qualitysport</a></li>
+								
+								</div>
+
+								</div>
 								<li role="presentation"><a href="Clients.html">Clients</a></li>
 								<li role="presentation"><a href="blog.html">Blog</a></li>
 								<li role="presentation"><a href="contact.html">Contact</a></li>
