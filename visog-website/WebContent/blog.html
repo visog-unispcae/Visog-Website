@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Company-HTML Bootstrap theme</title>
+<title>Visog Global It Solutions</title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,46 +19,59 @@
         Author URL: https://bootstrapmade.com
     ======================================================= -->
 <style>
-ul {
-	padding: 0;
-	list-style: none;
-	background: #f2f2f2;
+h3 {
+	text-align: center;
+	padding-bottom: 10px;
+	font-weight: bold;
+	
+
 }
 
-ul li {
-	display: inline-block;
+.menu {
+	font-size: 14px;
+
+color: #5a0620 
+}
+
+
+p {
+	padding-top: -90px;
+	padding-right: 30px;
+	padding-bottom: -10px;
+	padding-left: 80px;
+}
+
+.dropdown {
+	font-size: 14px;
 	position: relative;
-	line-height: 9px;
-	text-align: right;
+	display: inline-block;
 }
 
-ul li a {
-	display: block;
-	padding: 8px 25px;
-	color: #333;
-	text-decoration: none;
-}
-
-ul li a:hover {
-	color: #fff;
-	background: #939393;
-}
-
-ul li ul.dropdown {
-	min-width: 100%; /* Set width of the dropdown */
-	background: #f2f2f2;
+.dropdown-content {
 	display: none;
 	position: absolute;
-	z-index: 999;
-	left: 0;
+	background-color: #f9f9f9;
+	min-width: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 10px 16px;
+	z-index: 1;
 }
 
-ul li:hover ul.dropdown {
-	display: block; /* Display the dropdown */
-}
-
-ul li ul.dropdown li {
+.dropdown:hover .dropdown-content {
 	display: block;
+}
+}
+.dropdown a:link {
+    color: #333333 !important;
+}
+.dropdown a:visited {
+    color: #333333 !important;
+}
+.dropdown a:hover {
+    color: #5a0620 !important;
+}
+.dropdown a:active {
+    color: #5a0620 !important;
 }
 </style>
 </head>
@@ -93,7 +106,8 @@ ul li ul.dropdown li {
 									class="active">Portfolio</a></li>
 								<li role="presentation"><a href="blog.html">Blog</a></li>
 								<li role="presentation"><a href="contact.html">Contact</a></li>
-								<li role="presentation"class="dropdown"><a href="services.html"
+
+<li role="presentation"class="dropdown"><a href="services.html"
 									class="dropdown-toggle" data-toggle="dropdown">Services <b
 										class="caret"></b></a>
 								
@@ -106,7 +120,9 @@ ul li ul.dropdown li {
 												Sustainability</a></li>
 										<li><a href="ItServices.html">ItServices</a></li>
 									</ul></li>
-							</ul>
+
+
+</ul>
 							
 						</div>
 					</div>
@@ -323,26 +339,31 @@ ul li ul.dropdown li {
 	<footer>
 		<div class="footer">
 			<div class="container">
+			
 				<div class="social-icon">
 					<div class="col-md-4">
 						<ul class="social-network">
-							<li><a href="#" class="fb tool-tip" title="Facebook"><i
-									class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter tool-tip" title="Twitter"><i
+							<li><a href="http://www.facebook.com" class="fb tool-tip"
+								title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="http://www.twitter.com"
+								class="twitter tool-tip" title="Twitter"><i
 									class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="gplus tool-tip" title="Google Plus"><i
+							<li><a href="http://www.googleplus.com"
+								class="gplus tool-tip" title="Google Plus"><i
 									class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i
+							<li><a href="http://www.linkedin.com"
+								class="linkedin tool-tip" title="Linkedin"><i
 									class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" class="ytube tool-tip" title="You Tube"><i
-									class="fa fa-youtube-play"></i></a></li>
+							<li><a href="http://www.youtube.com" class="ytube tool-tip"
+								title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
 						</ul>
 					</div>
 				</div>
+			
 
 				<div class="col-md-4 col-md-offset-4">
-					<div class="copyright">
-						&copy; Company Theme. All Rights Reserved.
+					
+						
 						<div class="credits">
 							<!-- 
                                 All the links in the footer should remain intact. 
@@ -350,24 +371,26 @@ ul li ul.dropdown li {
                                 Licensing information: https://bootstrapmade.com/license/
                                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Company
                             -->
-							<a
-								href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business
-								Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-						</div>
+                            <div class="footer-right">
+							<p>Designed by <a href="http://www.visog.com/">Visog Global It Solutions</a></p>
 					</div>
 				</div>
 			</div>
+
 			<div class="pull-right">
+				
 				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
 			</div>
 		</div>
 	</footer>
 
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-2.1.1.min.js"></script>
-	<script src="js/jquery.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/serv.js"></script>
 	<script src="js/jquery.prettyPhoto.js"></script>
 	<script src="js/jquery.isotope.min.js"></script>
 	<script src="js/wow.min.js"></script>
